@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/icon.png" type="image/x-icon">
+    <title>Todo App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content-container">
+            <div class="time-content">
+                <div class="time-box">
+                    <span class="number-day"></span>
+                    <div class="year-month">
+                        <span class="month"></span>
+                        <span class="year"></span>
+                    </div>
+                </div>
+                <span class="day"></span>
+            </div>
+            <div class="content"></div>
+            <button class="add" onclick="toggleModal()"> <i class="fa-solid fa-plus"></i> </button>
+        </div>
+
+        <div class="box-insert">
+            <input type="text" placeholder="Enter your daily tasks here">
+            <div class="btn-list">
+                <button class="btn btn-add" onclick="addTask()"> <i class="fa-solid fa-list-check"></i> </button>
+                <button class="btn btn-reset" onclick="clearInput()"> <i class="fa-solid fa-repeat"></i> </button>
+            </div>
+        </div>
+
+        <span class="self"> by berrada mehdi 2026 </span>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/c3d5b4a9ba.js" crossorigin="anonymous"></script>
+</body>
+</html>
